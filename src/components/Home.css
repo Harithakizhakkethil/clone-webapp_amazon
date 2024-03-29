@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousal{
+    margin-top: 0px;
+    width: 1500px;
+}
+
+
+.home_image {
+    width: 100%;
+    height:100%;
+   
+
+}
+/* @media (min-width:100px) and (max-width:500px){
+    .carousal{
+        margin-top: 50px;
+        width: 1500px;
+    }
+    
+}
+ */
+

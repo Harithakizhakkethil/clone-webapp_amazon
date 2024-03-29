@@ -1,0 +1,75 @@
+
+.navigation_logo{
+    width: 100px;
+    margin: 0 20px;
+    margin-top: 18px;
+    object-fit: contain;
+    height: 50px;
+   
+}
+.navigation{
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    cursor: pointer;
+   
+}
+.navigation_text:hover{
+    border: 1px solid white;
+}
+.navigation_searchIcon{
+    padding: 5px;
+    height: 50px !important;
+    background-color: #cd904d;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+.navigation_searchInput{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    width: 700px;
+}
+.Returns{
+    width: 62px;
+    font-size: 0.7rem;
+    padding-top: 10px;
+    margin-left: 25px;
+    
+ }
+ .order{
+    font-size:0.9rem;
+    font-weight: 700;
+    display: flex;
+    width: 70px;
+}
+.Returns:hover{
+    border: 1px solid white;
+     
+}
+
+.cart{
+    color:white;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    margin-right: 0px;
+    padding-top: 10px;
+   
+}
+.cart:hover{
+    border: 1px solid white;
+
+}
+
+@media (min-width:100px) and (max-width:1300px) {
+    .navigation_searchInput{
+        width: 250px;
+    }
+}
+
+
+
+

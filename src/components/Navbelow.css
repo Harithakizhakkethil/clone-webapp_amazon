@@ -1,0 +1,31 @@
+.navbelow{
+    height: 40px;
+    background-color: rgb(33, 39, 51);
+    color: white;
+   
+}
+.below_nav{
+    height: 40px;
+    background-color: rgb(33, 39, 51);
+    color: white;
+   
+}
+.below_nav h6{
+    padding-right: 20px;
+    padding: 8px;
+   
+}
+.below_nav h6:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+@media (min-width:100px) and (max-width:1300px) {
+    .below_nav{
+        height: 40px;
+        padding-top: 0px;
+        color:white;
+    }
+    
+        
+}
